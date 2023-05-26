@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-config
+data:
+  # mongo endpoint will be service from where we are connecting to mongodb
+  mongo-url : mongo-service
